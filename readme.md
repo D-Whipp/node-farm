@@ -32,3 +32,8 @@ Email is dwhipp88@gmail.com. <br>
 If you're interested in seeing more of my work then check out my [portfolio](http://mighty-brook-32674.herokuapp.com/) or you can view my [github](https://github.com/D-Whipp).
 
 ## Badges
+
+![udemy course](https://img.shields.io/badge/udemy-course-darkblue)
+![udemy tutorial](https://img.shields.io/badge/udemy-tutorial-darkblue)
+![udemy project](https://img.shields.io/badge/udemy-project-darkblue)
+![node tutorial](https://img.shields.io/badge/node-tutorial-darkblue)
