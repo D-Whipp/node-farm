@@ -13,7 +13,7 @@ I'm using this Udemy Course to deepen my understanding of Backend Web Developmen
 
 - [Author](#author)
 - [Usage](#Usage)
-- [About Me](#about)
+- [About Me](#about me)
 - [Badges](#badges)
 
 ## Author
