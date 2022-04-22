@@ -1,8 +1,7 @@
 const fs = require("fs");
 const http = require("http");
 const url = require("url");
-
-// import my modules
+const slugify = require("slugify");
 const replaceTemplate = require("./starter/modules/replaceTemplate");
 
 // *** Files ***
@@ -37,8 +36,11 @@ const replaceTemplate = require("./starter/modules/replaceTemplate");
 // });
 
 // console.log("Will read file!");
-
-// *** Server ***
+// loads all pages and json data into
+// into variables to be used
+// we load them once so we don't have to
+// do load them over and over with every
+// page request
 const templateOverview = fs.readFileSync(
   `${__dirname}/starter/templates/template-overview.html`,
   "utf-8"
@@ -57,6 +59,12 @@ const data = fs.readFileSync(
 );
 const dataObj = JSON.parse(data);
 
+const slugs = dataObj.map((el) => slugify(el.productName, { lower: true }));
+console.log(slugs);
+
+// const slugIDs = dataObj.map(el => slugify(el.id, ))
+
+// *** Server ***
 const server = http.createServer((req, res) => {
   const { query, pathname } = url.parse(req.url, true);
 
