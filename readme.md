@@ -24,7 +24,7 @@ I'm using this Udemy Course to deepen my understanding of Backend Web Developmen
 
 To use this app download the source code, using the console navigate to the projects root directory, run npm i, then node index.js. You'll receive a notification in the console stating "Listening to requests on port 8000". Open up Chrome and type localhost:8000 in your browser. BOOM! You'll be greeted with the app image.
 
-## About Me
+## About
 
 Hello! My name is David.<br>
 Email is dwhipp88@gmail.com. <br>
